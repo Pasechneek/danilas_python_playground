@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "danilas-python-playground-3"
+version = "0.1.0"
+description = ""
+authors = ["Pasechneek <danil.merkurev@yandex.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^9.0.1"
+pylint = "^4.0.3"
+ruff = "^0.14.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
